@@ -86,7 +86,104 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper{
+  width: 960px;
+  font-size: 19px;
+  line-height: 32px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#menu{
+  height: 120px;
+  line-height: 120px;
+  margin-bottom: 20px;
+}
+.margin_left_right_auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.gr_width_large{
+  width: 593px;
+}
+.gr_width_small{
+  width: 367px;
+}
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
+.clear_float{
+  clear: both;
+}
+.reset_margin_padding{
+  margin: 0px;
+  padding: 0px;
+}
+.mastheadTopMargin{
+  top-margin: 20px;
+}
+.title a{
+  text-decoration: none;
+  color: black;
+}
+element,style{
+  text-decoration: none;
+  color: black;
+}
+#masthead_landing{
+  height: 367px;
+  background-image: url("../img/img_2.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 45px;
+  clear: both;
+}
+#hero_div{
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+#masthead{
+  height: 74px;
+  background-image: url("../img/img_2.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 45px;
+}
+#menu li{
+  display: inline;
+}
+#side_photo{
+  width: 320px;
+}
+.text_center{
+  text-align: center;
+}
+.callout {
+  width: 315px;
+  height: 240px;
+}
+.footer{
+  margin-top: 24px;
+  margin-bottom: 24px;
 
+}
+hr{
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.position_absolute{
+  position: absolute;
+}
+#footer{
+  height: 240px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
